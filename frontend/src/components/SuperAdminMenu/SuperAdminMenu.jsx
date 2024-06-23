@@ -43,7 +43,7 @@ function SuperAdminMenu({ children, pageChange }) {
         <div className="p-1">
           <a href="#" style={{ textDecoration: "none", color: "#fff" }}>
             <img
-              src="https://cdn-icons-png.flaticon.com/128/3237/3237472.png"
+              src={process.env.PUBLIC_URL + "/assets/images/user (1).png"}
               className="mx-2"
               width="40"
               height="40"
