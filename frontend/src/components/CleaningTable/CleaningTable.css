@@ -1,0 +1,86 @@
+.tableDiv {
+    margin-top: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow-x: auto;
+  }
+  .table-heading {
+    font-weight: 500;
+    font-size: 15px;
+  }
+  @media (min-width: 768px) {
+    tr {
+      font-size: 15px;
+    }
+  
+    td {
+      font-size: 14px;
+    }
+    .message {
+      margin-top: 10px;
+    }
+  }
+  
+  @media (min-width: 991px) {
+    tr {
+      font-size: 16px;
+    }
+  
+    td {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    tr {
+      font-size: 17px;
+    }
+  
+    td {
+      font-size: 15px;
+    }
+  }
+  
+  @media (min-width: 1700px) {
+    tr {
+      font-size: 19px;
+    }
+  
+    td {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 2000px) {
+    tr {
+      font-size: 20px;
+    }
+  
+    td {
+      font-size: 19px;
+    }
+  }
+  thead {
+    background-color: #3c8dbc;
+    color: #fff;
+  }
+  
+  table {
+    font-size: 14px;
+  }
+  
+  .collapse-btn{
+      font-size: 20px;
+      padding: 1px;
+      line-height: 1;
+  }
+  .expandableDiv{
+      padding: 10px;
+  }
+  .success-btn{
+    margin: 0px 4px;
+  }
+  .denyBtn{
+    display: flex;
+    align-items: center;
+  }

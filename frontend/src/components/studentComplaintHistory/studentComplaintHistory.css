@@ -1,0 +1,30 @@
+.successCircle{
+    background-color: #71dd37;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.deniedCircle{
+    background-color: #ec0303;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.pendingCircle{
+    background-color: #696cff;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+.pendingBadge{
+    color: #696cff;
+    background-color: #e7e7ff;
+}
+.successBadge{
+    color: #71dd37;
+    background-color: #e8fadf;
+}
+.deniedBadge{
+    color: #ec0303;
+    background-color: #fcd7d7;
+}

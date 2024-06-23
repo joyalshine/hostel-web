@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.overview-conatiner {
+  /* width: 100%; */
+}
+.overview-conatiner .left {
+  background-color: #32005c;
+  padding: 10px 15px;
+  display: flex;
+}
+
+.overview-conatiner .right {
+  background-color: #fff;
+  padding: 10px 15px;
+  align-items: center;
+  display: grid;
+}
+
+.bullet-point-green {
+  width: 7px;
+  height: 7px;
+  background-color: #61ff00;
+  border-radius: 50%;
+}
+
+.bullet-point-red {
+  width: 7px;
+  height: 7px;
+  background-color: #ff0e0e;
+  border-radius: 50%;
+}
+.overview-conatiner .left .title {
+  justify-content: flex-end;
+  display: flex;
+  flex-direction: column;
+  border-right: solid;
+  border-right-color: #581395;
+}
+
+.overview-conatiner .left .title .child-1 {
+  align-items: center;
+  display: flex;
+}
+
+.overview-conatiner .left .title .child-2 {
+  margin: 0;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.overview-conatiner .left .data .child-1 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #846fbc;
+}
+.overview-conatiner .left .data .child-2 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #61ff00;
+}
+.overview-conatiner .left .data .child-3 {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #ff0e0e;
+}
+
+.overview-conatiner .left .title .row {
+  margin: 5px;
+}
+
+.overview-conatiner .left .data .row {
+  margin: 7px;
+}
+.overview-conatiner .right .child {
+  border-right: solid;
+  border-right-color: #b0b0b0;
+  border-right-width: 1.5px;
+}
+h6 {
+  margin: 0;
+}
+
+.overview-conatiner .right .child .subtitle h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #777d7d;
+}
+.overview-conatiner .right .child .data h6 {
+  font-weight: 700;
+  color: #5cb4de;
+}
+
+.overview-conatiner .right .child .data .child-1 {
+  display: grid;
+  align-items: center;
+}
+.overview-conatiner .right .child-last .subtitle h6 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #777d7d;
+}
+.overview-conatiner .right .child-last .data h6 {
+  font-weight: 700;
+  color: #5cb4de;
+}
+
+.overview-conatiner .right .child-last .data .child-1 {
+  display: grid;
+  align-items: center;
+}
